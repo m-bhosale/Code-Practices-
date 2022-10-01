@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "sources": [],
-  "sourcesContent": [],
-  "mappings": "",
+  "sources": ["../index.ts"],
+  "sourcesContent": ["//Map\n//Map with differnt types to use it \nlet map = new Map(\n  [\n  ['name','Mangesh'],\n  ['age',\"26\"]\n]\n);\nconst data = map.get('age');\nconsole.log(data);\n\n\n//Map with set\n\nlet setMap = new Map()\n\nsetMap.set('name','Varad')\n.set('age',12);\n\nconsole.log(\"Set Map\",setMap.get('name'))"],
+  "mappings": "AAEA,IAAI,MAAM,IAAI,IACZ;AAAA,EACA,CAAC,QAAO;AAAA,EACR,CAAC,OAAM;AAAA;AAGT,MAAM,OAAO,IAAI,IAAI;AACrB,QAAQ,IAAI;AAKZ,IAAI,SAAS,IAAI;AAEjB,OAAO,IAAI,QAAO,SACjB,IAAI,OAAM;AAEX,QAAQ,IAAI,WAAU,OAAO,IAAI;",
   "names": []
 }
